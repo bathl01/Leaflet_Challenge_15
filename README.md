@@ -4,7 +4,7 @@ In this challenge, yyou have been tasked with developing a way to visualize USGS
 and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
 * app was deployed to free static page hosting service GitHub Pages
-     https://bathl01.github.io/leaflet_challenge_15/
+       https://bathl01.github.io/Leaflet_Challenge_15/   
 ## Steps - Part-1 and Part-2 are together
 Part 1: Create the Earthquake Visualization
 1. Get your dataset. from the USGS GeoJSON Feed
