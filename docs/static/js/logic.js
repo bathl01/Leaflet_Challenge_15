@@ -74,7 +74,7 @@ var myMap = L.map("map", {
 
 // Function to determine marker size
 function markerSize(magnitude) {
-  return magnitude * 100;
+  return magnitude * 3;
 };
 
 // Function to add color based on depth
@@ -109,7 +109,7 @@ function createFeatures(earthquakeData) {
         opacity: .9,
         fillOpacity: 0.5
       };
-      return L.circle(latlng, markers);
+      return L.circleMarker(latlng, markers);
     },
   });
   // Use Promise.all to wait for both requests to complete
